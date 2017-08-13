@@ -5,7 +5,7 @@
 - Important: Remember the created disk number (example disk 1, disk 2, disk 3 ...)
 
 ##### Image of Operational System
-  - [Download]((https://www.microsoft.com/en-us/software-download/windowsiot)) and install Windows IoT for Intel Joule
+  - [Download and install](https://www.microsoft.com/en-us/software-download/windowsiot) Windows IoT for Intel Joule
   - Open your Command Line Tools with administrator privileges and then run the following commands:
 
 *** Important: Replace \\\\.\PhysicalDrive1 for the number of your disk
