@@ -19,7 +19,7 @@ dism /apply-image /imagefile:flash.ffu /applyDrive:\\.\PhysicalDrive1 /skipPlatf
 
 ##### Create New Virtual Machine 
 
-- With Hyper-v enabled, open Hyper-V Manager
+- With Hyper-V enabled, open Hyper-V Manager
 - Choose "Quick Create"
 - In Operation System, select your VHD file
 - In Network, click in "Set up automatic network"
