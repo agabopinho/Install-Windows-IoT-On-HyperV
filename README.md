@@ -1,10 +1,10 @@
 # Windows IoT On HyperV Virtual Machine
 
-##### New Virtual Hard Drive
+#### New Virtual Hard Drive
 - Create and Attach new VHD of 8GB, format Dynamically expanding. [According to the example](https://technet.microsoft.com/pt-br/library/gg318052(v=ws.10).aspx).
 - Important: Remember the created disk number (example disk 1, disk 2, disk 3 ...)
 
-##### Image of Operational System
+#### Image of Operational System
   - [Download and install](https://www.microsoft.com/en-us/software-download/windowsiot) Windows IoT for Intel Joule
   - Open your Command Line Tools with administrator privileges and then run the following commands:
 
@@ -17,7 +17,7 @@ dism /apply-image /imagefile:flash.ffu /applyDrive:\\.\PhysicalDrive1 /skipPlatf
 
 - Then, dettach the disk
 
-##### Create New Virtual Machine 
+#### Create New Virtual Machine 
 
 - With Hyper-V enabled, open Hyper-V Manager
 - Choose "Quick Create"
@@ -25,6 +25,6 @@ dism /apply-image /imagefile:flash.ffu /applyDrive:\\.\PhysicalDrive1 /skipPlatf
 - In Network, click in "Set up automatic network"
 - Click in "Create Virtual Machine"
 
-##### Done
+#### Done
 
 - Run your new Windows IoT Virtual Machine
