@@ -1,7 +1,7 @@
 # Windows IoT On HyperV Virtual Machine
 
 ##### New Virtual Hard Drive
-- Create and Attach new VHD of 8GB, format Dynamically expanding. [Example here](https://technet.microsoft.com/pt-br/library/gg318052(v=ws.10).aspx).
+- Create and Attach new VHD of 8GB, format Dynamically expanding. [According to the example](https://technet.microsoft.com/pt-br/library/gg318052(v=ws.10).aspx).
 - Important: Remember the created disk number (example disk 1, disk 2, disk 3 ...)
 
 ##### Image of Operational System
@@ -19,10 +19,11 @@ dism /apply-image /imagefile:flash.ffu /applyDrive:\\.\PhysicalDrive1 /skipPlatf
 
 ##### Create New Virtual Machine 
 
-- Open Hyper-V Manager
-- Choose Quick Create
+- With Hyper-v enabled, open Hyper-V Manager
+- Choose "Quick Create"
 - In Operation System, select your VHD file
 - In Network, click in "Set up automatic network"
+- Click in "Create Virtual Machine"
 
 ##### Done
 
