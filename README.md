@@ -29,4 +29,4 @@ dism /apply-image /imagefile:flash.ffu /applyDrive:\\.\PhysicalDrive1 /skipPlatf
 
 - Run your new Windows IoT Virtual Machine
 
-<img src="windows-iot-joule.png" />
+[![ScreenShot](https://github.com/agaboduarte/Install-Windows-IoT-On-HyperV/windows-iot-joule.png)](https://github.com/agaboduarte/Install-Windows-IoT-On-HyperV/)
