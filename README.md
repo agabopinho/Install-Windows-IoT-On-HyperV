@@ -1,4 +1,4 @@
-# Windows IoT On HyperV Virtual Machine
+# Windows IoT On Hyper-V Virtual Machine
 
 This post shows how to create new Windows IoT Virtual Machine on Hyper-V
 
