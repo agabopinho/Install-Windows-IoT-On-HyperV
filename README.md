@@ -1,5 +1,7 @@
 # Windows IoT On HyperV Virtual Machine
 
+This post shows you step by step to create new Windows IoT Virtual Machine on Hyper-V
+
 ### New Virtual Hard Drive
 - Create and Attach new VHD of 8GB, formatted as dynamically expanding. [According to this example](https://technet.microsoft.com/pt-br/library/gg318052(v=ws.10).aspx).
 - Important: Remember the created disk number (example disk 1, disk 2, disk 3 ...)
